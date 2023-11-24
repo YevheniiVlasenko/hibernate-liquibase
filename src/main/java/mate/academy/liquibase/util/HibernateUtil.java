@@ -1,9 +1,5 @@
 package mate.academy.liquibase.util;
 
-import java.io.InputStream;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.util.Properties;
 import liquibase.Contexts;
 import liquibase.Liquibase;
 import liquibase.database.Database;
@@ -12,6 +8,11 @@ import liquibase.database.jvm.JdbcConnection;
 import liquibase.resource.ClassLoaderResourceAccessor;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+
+import java.io.InputStream;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.util.Properties;
 
 public class HibernateUtil {
     private static final SessionFactory instance = initSessionFactory();

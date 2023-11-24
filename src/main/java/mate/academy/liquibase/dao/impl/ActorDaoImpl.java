@@ -1,12 +1,13 @@
 package mate.academy.liquibase.dao.impl;
 
-import java.util.Optional;
 import mate.academy.liquibase.dao.ActorDao;
 import mate.academy.liquibase.exception.DataProcessingException;
 import mate.academy.liquibase.model.Actor;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+
+import java.util.Optional;
 
 public class ActorDaoImpl extends AbstractDao implements ActorDao {
     public ActorDaoImpl(SessionFactory sessionFactory) {

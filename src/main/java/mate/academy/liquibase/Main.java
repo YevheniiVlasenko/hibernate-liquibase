@@ -1,6 +1,5 @@
 package mate.academy.liquibase;
 
-import java.util.List;
 import mate.academy.liquibase.dao.impl.ActorDaoImpl;
 import mate.academy.liquibase.dao.impl.CountryDaoImpl;
 import mate.academy.liquibase.dao.impl.MovieDaoImpl;
@@ -15,6 +14,8 @@ import mate.academy.liquibase.service.impl.CountryServiceImpl;
 import mate.academy.liquibase.service.impl.MovieServiceImpl;
 import mate.academy.liquibase.util.HibernateUtil;
 import org.hibernate.SessionFactory;
+
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {

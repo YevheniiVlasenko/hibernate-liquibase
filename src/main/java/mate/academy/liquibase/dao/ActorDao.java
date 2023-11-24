@@ -1,7 +1,8 @@
 package mate.academy.liquibase.dao;
 
-import java.util.Optional;
 import mate.academy.liquibase.model.Actor;
+
+import java.util.Optional;
 
 public interface ActorDao {
     Actor save(Actor actor);

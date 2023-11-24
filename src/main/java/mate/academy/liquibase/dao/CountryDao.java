@@ -1,7 +1,8 @@
 package mate.academy.liquibase.dao;
 
-import java.util.Optional;
 import mate.academy.liquibase.model.Country;
+
+import java.util.Optional;
 
 public interface CountryDao {
     Country save(Country country);
