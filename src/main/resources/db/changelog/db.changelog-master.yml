@@ -1,3 +1,9 @@
 databaseChangeLog:
   - include:
       file: db/db.changelog/01-create-tables.yml
+  - include:
+      file: db/db.changelog/02-create-tables.yml
+  - include:
+      file: db/db.changelog/03-create-tables.yml
+  - include:
+      file: db/db.changelog/04-create-tables.yml
